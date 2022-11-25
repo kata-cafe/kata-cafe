@@ -2,7 +2,7 @@
 
 Coding problems condition for Kata Cafe
 
-# Instructions
+# Instruction
 
 * Create coding problem with markdown file with the name, kebab case, as this format:
 
