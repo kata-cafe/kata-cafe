@@ -25,7 +25,5 @@
   fizzBuzz(11) -->  "11"
 ```
 
-
-
 ## Contributors
 * World (@runyasak)
