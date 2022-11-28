@@ -1,7 +1,7 @@
 # Array Reverse
 
 Create `arrayReverse` function to reverse order of items in an array.
-Cannot use helper function from any language or library.
+Cannot use `reverse` built in function from any language or library.
 
 ## Test Cases
 
