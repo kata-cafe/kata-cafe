@@ -1,6 +1,7 @@
-# toString
+# Array Reverse
 
-Create `toString()` function without using built in function from any language or library.
+Create `arrayReverse` function to reverse order of items in an array.
+Cannot use built in function from any language or library.
 
 ## Test Cases
 
