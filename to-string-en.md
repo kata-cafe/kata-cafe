@@ -1,6 +1,6 @@
 # toString
 
-Create `toString()` function without using built in function from any language or library.
+Create `toString()` function without using `toString` built in function from any language or library.
 
 ## Test Cases
 
