@@ -4,7 +4,7 @@ The autocomplete function will take in an input string and a dictionary array an
 
 ## Test Cases
 
-```
+```js
   autoComplete(
     'a',
     [
@@ -22,7 +22,7 @@ The autocomplete function will take in an input string and a dictionary array an
   ) --> ['imagine', 'air', 'car', 'eagle', 'champion']
 ```
 
-```
+```js
   autoComplete(
     'ai',
     [
@@ -40,7 +40,7 @@ The autocomplete function will take in an input string and a dictionary array an
   ) --> ['ai']
 ```
 
-```
+```js
   autoComplete(
     'k',
     [

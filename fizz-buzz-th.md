@@ -9,19 +9,19 @@
 
 ## Test Cases
 
-```
+```js
   fizzBuzz(15) -->  "FizzBuzz"
 ```
 
-```
+```js
   fizzBuzz(5) -->  "Buzz"
 ```
 
-```
+```js
   fizzBuzz(3) -->  "Fizz"
 ```
 
-```
+```js
   fizzBuzz(11) -->  "11"
 ```
 

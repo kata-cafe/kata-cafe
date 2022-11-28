@@ -22,19 +22,19 @@
 
 ## Test Cases
 
-```
+```js
   encryption("if man was meant to stay on the ground god would have given us roots") -->  "imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau"
 ```
 
-```
+```js
   encryption("have a nice day") -->  "hae and via ecy"
 ```
 
-```
+```js
   encryption("feed the dog) -->  "fto ehg ee dd"
 ```
 
-```
+```js
   encryption("chill out") -->  "clu hlt io"
 ```
 
