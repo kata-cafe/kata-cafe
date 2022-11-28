@@ -10,7 +10,7 @@ Cannot use helper function from any language or library.
 ```
 
 ```js
-  arrayReverse(['a', 'c', 'b']) -->  ['c', 'b', 'a']
+  arrayReverse(['a', 'c', 'b']) -->  ['b', 'c', 'a']
 ```
 
 ## Ref
