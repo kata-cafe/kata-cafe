@@ -23,19 +23,19 @@
 ## Test Cases
 
 ```
-  fizzBuzz("if man was meant to stay on the ground god would have given us roots") -->  "imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau"
+  encryption("if man was meant to stay on the ground god would have given us roots") -->  "imtgdvs fearwer mayoogo anouuio ntnnlvt wttddes aohghn sseoau"
 ```
 
 ```
-  fizzBuzz("have a nice day") -->  "hae and via ecy"
+  encryption("have a nice day") -->  "hae and via ecy"
 ```
 
 ```
-  fizzBuzz("feed the dog) -->  "fto ehg ee dd"
+  encryption("feed the dog) -->  "fto ehg ee dd"
 ```
 
 ```
-  fizzBuzz("chill out") -->  "clu hlt io"
+  encryption("chill out") -->  "clu hlt io"
 ```
 
 ## Contributors
