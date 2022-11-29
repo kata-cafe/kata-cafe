@@ -37,7 +37,7 @@ The autocomplete function will take in an input string and a dictionary array an
       'internal',
       'internal'
     ]
-  ) --> ['ai']
+  ) --> ['air']
 ```
 
 ```js
