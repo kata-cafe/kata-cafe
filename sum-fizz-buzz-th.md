@@ -1,4 +1,4 @@
-# Fizz Buzz
+# Sum Fizz Buzz
 
 สร้าง function ชื่อ `sumFizzBuzz` ที่รับตัวแปร `x` ที่เป็น Array ของ `integer` โดยนำผลรวมของสมาชิกใน Array นั้นมาเช็คตามเงื่อนไข โดยมีเงื่อนไขดังนี้
 
