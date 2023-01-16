@@ -57,8 +57,11 @@ The autocomplete function will take in an input string and a dictionary array an
     ]
   ) --> []
 ```
+
 ## Ref
-* https://www.codewars.com/kata/5389864ec72ce03383000484
+
+- https://www.codewars.com/kata/5389864ec72ce03383000484
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)

@@ -4,6 +4,7 @@ We can assign a value to each character in a word, based on their position in th
 Write a function that returns true if the word is balanced, and false if it's not.
 
 ## Notes
+
 - All words will be lowercase, and have a minimum of 2 characters.
 - Palindromic words will always be balanced.
 
@@ -16,4 +17,5 @@ balanced("brake") --> false
 ```
 
 ## Contributors
-* T (@annopud)
+
+- T (@annopud)

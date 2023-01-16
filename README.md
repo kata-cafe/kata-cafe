@@ -4,13 +4,13 @@ Coding problems condition for Kata Cafe
 
 # Instruction
 
-* Create coding problem with markdown file with the name, kebab case, as this format:
+- Create coding problem with markdown file with the name, kebab case, as this format:
 
 ```js
-[PROBLEM_NAME]-[LANGUAGE].md
+[PROBLEM_NAME] - [LANGUAGE].md;
 ```
 
-* Writing your coding problem as `template.md`
+- Writing your coding problem as `template.md`
 
 # For Web - Welcome to [Astro](https://astro.build)
 
@@ -20,7 +20,6 @@ Coding problems condition for Kata Cafe
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
 
 ## 🚀 Project Structure
 
@@ -62,4 +61,3 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
