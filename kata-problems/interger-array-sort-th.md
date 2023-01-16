@@ -25,4 +25,5 @@
 ```
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)

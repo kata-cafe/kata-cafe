@@ -14,7 +14,9 @@ Cannot use `reverse` built in function from any language or library.
 ```
 
 ## Ref
-* https://www.codewars.com/kata/53b2ff49b82af296ce001139
+
+- https://www.codewars.com/kata/53b2ff49b82af296ce001139
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)

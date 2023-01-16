@@ -21,7 +21,9 @@ Create `toString()` function without using `toString` built in function from any
 ```
 
 ## Ref
-* https://www.codewars.com/kata/56d6b921c9ae3fd926000601
+
+- https://www.codewars.com/kata/56d6b921c9ae3fd926000601
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)

@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Kata Cafe">
+  <div
+    class="container mx-auto p-8 flex flex-col justify-center h-screen gap-8"
+  >
+    <div class="title">&#123; Kata Cafe &#125; ;</div>
+    <div class="flex flex-col items-center gap-4">
+      <a
+        href="/kata-cafe/kata-random"
+        id="random-kata"
+        class="btn btn-primary w-40"
+      >
+        Random Kata !!
+      </a>
+      <button class="btn btn-outline btn-primary w-40">Kata List</button>
+    </div>
+  </div>
+</Layout>
+
+<style lang="scss">
+  .title {
+    background: -webkit-linear-gradient(#00d8ff, #bd34fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @apply text-8xl font-bold text-center;
+  }
+</style>

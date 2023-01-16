@@ -4,7 +4,6 @@ Complete the function/method so that it takes a PascalCase string and returns th
 
 ## Test Cases
 
-
 ```js
   toSnakeCase("TestController") -->  "test_controller"
 ```
@@ -22,7 +21,9 @@ Complete the function/method so that it takes a PascalCase string and returns th
 ```
 
 ## Ref
-* https://www.codewars.com/kata/529b418d533b76924600085d/
+
+- https://www.codewars.com/kata/529b418d533b76924600085d/
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)

@@ -1,0 +1,35 @@
+:root {
+  font-family: "Sarabun", sans-serif;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+ul {
+  @apply list-disc pl-4 flex flex-col gap-2;
+}
+
+code {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+pre,
+code {
+  @apply p-1;
+  @apply rounded;
+  @apply bg-[rgba(50,50,50,1)] #{!important};
+}
+
+table {
+  @apply table w-full;
+}
+
+a {
+  @apply link link-primary transition-colors;
+}

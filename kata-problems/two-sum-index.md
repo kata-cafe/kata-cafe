@@ -25,7 +25,9 @@ The input will always be valid (numbers will be an array of length 2 or greater,
 ```
 
 ## Ref
-* https://www.codewars.com/kata/52c31f8e6605bcc646000082
+
+- https://www.codewars.com/kata/52c31f8e6605bcc646000082
 
 ## Contributors
-* World (@runyasak)
+
+- World (@runyasak)
