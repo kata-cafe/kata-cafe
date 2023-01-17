@@ -1,0 +1,58 @@
+---
+import KataCodeLayout from "../layouts/KataCodeLayout.astro";
+import { FileNameUtils } from "../utils/FileName.utils";
+
+const kataProblems = await Astro.glob("/kata-problems/*.md");
+
+const filterKataProblems = kataProblems.filter(
+  (problem) => FileNameUtils.mapFileName(problem.file) !== "template"
+);
+const problemData = [];
+
+for (let index = 0; index < filterKataProblems.length; index++) {
+  const name = filterKataProblems[index].file.substring(
+    filterKataProblems[index].file.indexOf("kata-problems/") + 14, 
+    filterKataProblems[index].file.lastIndexOf(".md")
+  );
+  const problem = {
+      index: index + 1,
+      name: name,
+      url: filterKataProblems[index].file,
+    }
+    problemData.push(problem);
+};
+---
+<KataCodeLayout>
+  <div class="overflow-x-auto">
+    <table class="table table-zebra w-full">
+      <thead>
+        <tr class="background">
+          <th class="no-collumn"></th>
+          <th class="title">Kata Problem</th>
+        </tr>
+      </thead>
+      <tbody>
+        {problemData.map((item) => (
+          <tr id="row-1" class="hover"><td>{item.index}</td><td>{item.name}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</KataCodeLayout>
+
+<style>
+  .title {
+    background: -webkit-linear-gradient(#00d8ff, #bd34fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply text-2xl font-bold;
+  }
+  .background {
+    background: #202020;
+    -webkit-text-fill-color: transparent;
+  }
+  .no-collumn {
+    width: 50px;
+    text-align: center;
+  }
+</style>
