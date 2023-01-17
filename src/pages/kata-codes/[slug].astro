@@ -1,0 +1,32 @@
+---
+import type { MarkdownInstance } from "astro";
+import KataCodeLayout from "../../layouts/KataCodeLayout.astro";
+import { FileNameUtils } from "../../utils/FileName.utils";
+import { KataProblemsUtils } from "../../utils/KataProblems.utils";
+
+const { slug } = Astro.params;
+
+const kataProblems = await Astro.glob("/kata-problems/*.md");
+
+const findProblem = kataProblems.find(
+  (problem) => FileNameUtils.mapFileName(problem.file) === slug
+) as MarkdownInstance<Record<string, any>>;
+
+const { Content } = findProblem;
+
+export async function getStaticPaths() {
+  const problems = await Astro.glob("/kata-problems/*.md");
+
+  const problemParams = KataProblemsUtils.mapProblemNames(problems).map(
+    (slug) => ({
+      params: { slug },
+    })
+  );
+
+  return problemParams;
+}
+---
+
+<KataCodeLayout>
+  <Content />
+</KataCodeLayout>

@@ -1,5 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { KataProblemsUtils } from "../utils/KataProblems.utils";
+
+const problems = await Astro.glob("/kata-problems/*.md");
+
+const problemNames = KataProblemsUtils.mapProblemNames(problems);
 ---
 
 <Layout title="Kata Cafe">
@@ -8,17 +13,33 @@ import Layout from "../layouts/Layout.astro";
   >
     <div class="title">&#123; Kata Cafe &#125; ;</div>
     <div class="flex flex-col items-center gap-4">
-      <a
-        href="/kata-cafe/kata-random"
+      <button
         id="random-kata"
         class="btn btn-primary w-40"
+        data-problem-names={problemNames}
       >
         Random Kata !!
-      </a>
+      </button>
       <button class="btn btn-outline btn-primary w-40">Kata List</button>
     </div>
   </div>
 </Layout>
+
+<script>
+  const randomButton = document.getElementById("random-kata");
+
+  if (randomButton) {
+    randomButton.addEventListener("click", () => {
+      if (randomButton.dataset.problemNames) {
+        const splitProblemNames = randomButton.dataset.problemNames.split(",");
+        const randomIndex =
+          Math.round(Math.random() * 10000000) % splitProblemNames.length;
+
+        document.location.href = `/kata-cafe/kata-codes/${splitProblemNames[randomIndex]}`;
+      }
+    });
+  }
+</script>
 
 <style lang="scss">
   .title {
