@@ -33,3 +33,11 @@ table {
 a {
   @apply link link-primary transition-colors;
 }
+
+.app-logo {
+  background: -webkit-linear-gradient(#00d8ff, #bd34fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @apply text-4xl font-bold text-center;
+}
