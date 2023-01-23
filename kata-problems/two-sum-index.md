@@ -21,7 +21,7 @@ The input will always be valid (numbers will be an array of length 2 or greater,
 ```
 
 ```js
-  twoSum([2, 3, 1]) --> [1, 2]
+  twoSum([2, 3, 1], 4) --> [1, 2]
 ```
 
 ## Ref
