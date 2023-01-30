@@ -41,7 +41,7 @@ const problemNames = KataProblemsUtils.mapProblemNames(problems);
       if (randomButton.dataset.problemNames) {
         const splitProblemNames = randomButton.dataset.problemNames.split(",");
         const randomIndex =
-          Math.round(Math.random()) * (splitProblemNames.length - 1);
+          Math.round(Math.random() * 10000000) % splitProblemNames.length;
 
         document.location.href = `/kata-cafe/kata-codes/${splitProblemNames[randomIndex]}`;
       }
