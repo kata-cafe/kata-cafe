@@ -33,6 +33,10 @@ Answer is 3 (return as int)
   fusc(10) --> 3
 ```
 
+```js
+  fusc(11) --> 5
+```
+
 ## Contributors
 
 - Pann (@ketsune)
