@@ -11,7 +11,7 @@ Create 'The fusc' function is defined recursively as follows:
 1. fusc(10) = fusc(5) // by rule No.3
 2. fusc(5) = fusc(2) + fusc(3) // by rule No.4
 3.1 fusc(2) = fusc(1) and then fusc(1) = 1 // by rule No.3 then rule No.2
-3.1 fusc(3) = fusc(1) + fusc(2) // by rule No.4
+3.2 fusc(3) = fusc(1) + fusc(2) // by rule No.4
 thus
 4. fusc(5) = 1 + 1 + 1 = 3
 
