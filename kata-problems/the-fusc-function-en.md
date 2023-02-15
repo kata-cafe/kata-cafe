@@ -1,4 +1,4 @@
-# Encryption
+# Fusc function
 
 Create 'The fusc' function is defined recursively as follows:
 
