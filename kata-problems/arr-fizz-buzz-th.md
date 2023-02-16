@@ -16,7 +16,7 @@
 ```
 
 ```js
-  fizzBuzz([2, 7]) -->  ["Fizz", "7"]
+  fizzBuzz([3, 7]) -->  ["Fizz", "7"]
 ```
 
 ```js
